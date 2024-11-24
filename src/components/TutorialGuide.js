@@ -52,6 +52,9 @@ const TutorialGuide = ({ open, onClose, onComplete }) => {
   const [activeStep, setActiveStep] = useState(0);
   const [showTutorial, setShowTutorial] = useState(true);
 
+  console.log(showTutorial);
+
+
   useEffect(() => {
     const hasSeenTutorial = localStorage.getItem('hasSeenTutorial');
     setShowTutorial(!hasSeenTutorial);

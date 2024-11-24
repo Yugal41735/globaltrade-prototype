@@ -17,8 +17,6 @@ import {
   Grid,
   Paper,
   CircularProgress,
-  Tooltip,
-  IconButton,
   Chip,
   LinearProgress
 } from "@mui/material";
@@ -36,10 +34,7 @@ import {
 } from 'recharts';
 import { 
   Download, 
-  History, 
-  CompareArrows, 
-  Info as InfoIcon,
-  HelpOutline 
+  History
 } from '@mui/icons-material';
 import {
   fetchComplianceData,
@@ -47,7 +42,7 @@ import {
   fetchMarketData
 } from "./services/api";
 import { fetchCountries, fetchProducts } from "./services/api";
-import { cacheManager, CACHE_KEYS } from "./services/cacheManager";
+// import { cacheManager, CACHE_KEYS } from "./services/cacheManager";
 import SavedAnalysis from './components/SavedAnalysis';
 import ComparisonView from './components/ComparisonView';
 import ReportGenerator from './components/ReportGenerator';

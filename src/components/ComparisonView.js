@@ -26,7 +26,7 @@ import {
   Tooltip,
   Legend
 } from 'recharts';
-import { CompareArrows, Close } from '@mui/icons-material';
+import { Close } from '@mui/icons-material';
 
 const ComparisonView = ({ 
   open, 

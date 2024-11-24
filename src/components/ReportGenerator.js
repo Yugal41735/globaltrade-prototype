@@ -17,7 +17,7 @@ import {
   Box,
   Alert,
 } from '@mui/material';
-import { FileDownload, PictureAsPdf, Description } from '@mui/icons-material';
+import { FileDownload } from '@mui/icons-material';
 
 const ReportGenerator = ({ open, onClose, marketData, complianceData, incentives }) => {
   const [selectedSections, setSelectedSections] = useState({

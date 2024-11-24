@@ -1,0 +1,151 @@
+{
+    "United States": {
+      "Adult Men's or Women's Accessories": {
+        "size": [
+          { "year": "2021", "value": 12.5 },
+          { "year": "2022", "value": 13.8 },
+          { "year": "2023", "value": 15.2 },
+          { "year": "2024", "value": 16.7 }
+        ],
+        "growth": [
+          { "year": "2021", "value": 8.5 },
+          { "year": "2022", "value": 10.4 },
+          { "year": "2023", "value": 10.1 },
+          { "year": "2024", "value": 9.8 }
+        ],
+        "competitors": [
+          "Accessory Leaders Inc",
+          "Fashion Forward Co",
+          "Global Accessories Ltd"
+        ],
+        "marketShare": {
+          "leader": 35,
+          "medium": 45,
+          "small": 20
+        },
+        "risks": [
+          "Fashion trend volatility",
+          "Supply chain complexity",
+          "Import duty fluctuations"
+        ]
+      },
+      "Adult Men's or Women's Clothes": {
+        "size": [
+          { "year": "2021", "value": 25.3 },
+          { "year": "2022", "value": 27.8 },
+          { "year": "2023", "value": 30.5 },
+          { "year": "2024", "value": 33.2 }
+        ],
+        "growth": [
+          { "year": "2021", "value": 7.8 },
+          { "year": "2022", "value": 9.9 },
+          { "year": "2023", "value": 9.7 },
+          { "year": "2024", "value": 8.9 }
+        ],
+        "competitors": [
+          "Premium Apparel Co",
+          "Fashion Elite Inc",
+          "Style Masters LLC"
+        ],
+        "marketShare": {
+          "leader": 40,
+          "medium": 35,
+          "small": 25
+        },
+        "risks": [
+          "Seasonal demand variations",
+          "Raw material costs",
+          "Fast fashion competition"
+        ]
+      },
+      "Children or Baby Boys' or Girls' Accessories": {
+        "size": [
+          { "year": "2021", "value": 8.4 },
+          { "year": "2022", "value": 9.6 },
+          { "year": "2023", "value": 11.2 },
+          { "year": "2024", "value": 12.8 }
+        ],
+        "growth": [
+          { "year": "2021", "value": 12.5 },
+          { "year": "2022", "value": 14.3 },
+          { "year": "2023", "value": 16.7 },
+          { "year": "2024", "value": 14.3 }
+        ],
+        "competitors": [
+          "Kids Accessories Plus",
+          "Little Treasures Co",
+          "Baby Basics Inc"
+        ],
+        "marketShare": {
+          "leader": 33,
+          "medium": 42,
+          "small": 25
+        },
+        "risks": [
+          "Safety regulation changes",
+          "Demographic shifts",
+          "Product safety concerns"
+        ]
+      },
+      "Children or Baby Boys' or Girls' Clothes": {
+        "size": [
+          { "year": "2021", "value": 15.6 },
+          { "year": "2022", "value": 17.8 },
+          { "year": "2023", "value": 20.4 },
+          { "year": "2024", "value": 23.1 }
+        ],
+        "growth": [
+          { "year": "2021", "value": 11.2 },
+          { "year": "2022", "value": 14.1 },
+          { "year": "2023", "value": 14.6 },
+          { "year": "2024", "value": 13.2 }
+        ],
+        "competitors": [
+          "Kids Fashion Co",
+          "Baby Boutique Inc",
+          "Children's Wear Plus"
+        ],
+        "marketShare": {
+          "leader": 38,
+          "medium": 40,
+          "small": 22
+        },
+        "risks": [
+          "Changing consumer preferences",
+          "Safety standards compliance",
+          "Supply chain reliability"
+        ]
+      }
+    },
+    "Europe": {
+      "Adult Men's or Women's Accessories": {
+        "size": [
+          { "year": "2021", "value": 10.8 },
+          { "year": "2022", "value": 12.3 },
+          { "year": "2023", "value": 14.1 },
+          { "year": "2024", "value": 15.9 }
+        ],
+        "growth": [
+          { "year": "2021", "value": 9.2 },
+          { "year": "2022", "value": 13.9 },
+          { "year": "2023", "value": 14.6 },
+          { "year": "2024", "value": 12.8 }
+        ],
+        "competitors": [
+          "Euro Fashion Group",
+          "Accessory EU Ltd",
+          "Continental Style Co"
+        ],
+        "marketShare": {
+          "leader": 32,
+          "medium": 48,
+          "small": 20
+        },
+        "risks": [
+          "EU regulation changes",
+          "Currency fluctuations",
+          "Market fragmentation"
+        ]
+      }
+    }
+  }

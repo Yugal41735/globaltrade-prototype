@@ -1,0 +1,38 @@
+{
+    "United States": {
+      "Eco-packaging": {
+        "requirements": [
+          "EPA Registration Certificate",
+          "Customs Declaration Form",
+          "Certificate of Origin"
+        ],
+        "incentives": [
+          "Green Technology Export Grant",
+          "Small Business International Market Development Program"
+        ]
+      },
+      "Biodegradable containers": {
+        "requirements": [
+          "FDA Approval Certificate",
+          "Customs Declaration Form"
+        ],
+        "incentives": [
+          "Eco-friendly Business Tax Credit"
+        ]
+      }
+    },
+    "Europe": {
+      "Eco-packaging": {
+        "requirements": [
+          "CE Certification",
+          "REACH Compliance Certificate",
+          "Declaration of Conformity"
+        ],
+        "incentives": [
+          "European Green Deal Subsidy",
+          "Horizon Europe Innovation Grant"
+        ]
+      }
+    }
+  }
+  

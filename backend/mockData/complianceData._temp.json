@@ -1,0 +1,338 @@
+{
+    "United States": {
+      "Adult Men's or Women's Accessories":{
+        "requirements": {
+          "mandatory": [
+            {
+              "requirement": "Product Labeling",
+              "description": "Ensure product labels meet FTC and ASTM guidelines.",
+              "details": "Labels must include fiber content, country of origin, manufacturer/marketer details, and labor information."
+            },
+            {
+              "requirement": "ASTM Standards Compliance",
+              "description": "Follow ASTM standards in manufacturing.",
+              "details": "ASTM standards provide specifications for product quality, fabric characteristics, and flammability."
+            }
+          ],
+          "recommended": [
+            {
+              "requirement": "Eco-friendly Packaging",
+              "description": "Use sustainable and recyclable materials.",
+              "details": "While not mandatory, it aligns with environmental standards and consumer preferences."
+            }
+          ]
+        },
+        "faqs": [
+          {
+            "question": "What information is required on labels?",
+            "answer": "Fiber content, country of origin, manufacturer/marketer details, and labor information as per FTC guidelines."
+          },
+          {
+            "question": "When should ASTM standards be followed?",
+            "answer": "During manufacturing to ensure product safety and quality."
+          }
+        ],
+        "referenceLinks": [
+          {
+            "title": "FTC Labeling Requirements",
+            "url": "https://www.ftc.gov/tips-advice/business-center/guidance/threading-your-way-through-labeling-requirements-under-textile",
+            "description": "Guidance on FTC labeling standards for textiles."
+          },
+          {
+            "title": "ASTM Standards Overview",
+            "url": "https://www.astm.org/Standards/D5489.htm",
+            "description": "Details on ASTM standards for textile manufacturing."
+          }
+        ],
+        "incentives": [
+          "Export promotion capital goods (EPCG) scheme benefits",
+          "Duty drawback scheme for raw materials",
+          "Market Assistance Scheme (MAS) for exploring new markets",
+          "Interest Equalization Scheme on pre and post shipment credit"
+        ]
+      },
+      "Adult Men's or Women's Clothes": {
+        "requirements": {
+          "mandatory": [
+            {
+              "requirement": "Product Labeling",
+              "description": "Labels must comply with FTC and ASTM guidelines.",
+              "details": "Include fiber content, country of origin, manufacturer/marketer details, and labor mechanics."
+            },
+            {
+              "requirement": "ASTM Standards Compliance",
+              "description": "Manufacture in accordance with ASTM guidelines.",
+              "details": "Ensure specifications for product quality, fabric, and flammability."
+            }
+          ],
+          "recommended": [
+            {
+              "requirement": "Fair Trade Certification",
+              "description": "Obtain certification for ethical practices.",
+              "details": "Demonstrates compliance with labor and ethical manufacturing standards."
+            }
+          ]
+        },
+        "faqs": [
+          {
+            "question": "What happens if labeling does not meet guidelines?",
+            "answer": "Non-compliance can result in shipment rejection and regulatory fines."
+          },
+          {
+            "question": "Are ASTM standards required for all apparel?",
+            "answer": "Yes, ASTM standards ensure safety and quality in manufacturing."
+          }
+        ],
+        "referenceLinks": [
+          {
+            "title": "FTC Labeling Guidelines",
+            "url": "https://www.ftc.gov/tips-advice/business-center/guidance/threading-your-way-through-labeling-requirements-under-textile",
+            "description": "Detailed guidelines on FTC labeling for textiles."
+          },
+          {
+            "title": "ASTM Standards for Apparel",
+            "url": "https://www.astm.org/Standards/D5489.htm",
+            "description": "ASTM standards for textile manufacturing."
+          }
+        ],
+        "incentives": [
+          "Merchandise Exports from India Scheme (MEIS)",
+          "Interest subvention scheme for pre-shipment and post-shipment credit",
+          "Market Access Initiative (MAI) for market studies",
+          "Town of Export Excellence benefits for textile clusters"
+        ]
+      },
+      "Children or Baby Boys' or Girls' Accessories": {
+        "requirements": {
+          "mandatory": [
+            {
+              "requirement": "Product Labeling",
+              "description": "Labels must meet FTC and ASTM standards.",
+              "details": "Include product identity, fiber content, origin, and manufacturer/packer details."
+            },
+            {
+              "requirement": "CPSC Testing & Certification",
+              "description": "Test products and obtain CPC certificate.",
+              "details": "Ensure compliance with safety regulations for children’s products."
+            },
+            {
+              "requirement": "Tracking Label",
+              "description": "Include tracking labels on all products.",
+              "details": "Provide details on product identity, manufacturer, and batch."
+            }
+          ],
+          "recommended": [
+            {
+              "requirement": "Eco-Friendly Materials",
+              "description": "Use non-toxic and sustainable materials.",
+              "details": "Reduces environmental impact and ensures child safety."
+            }
+          ]
+        },
+        "faqs": [
+          {
+            "question": "What is required for tracking labels?",
+            "answer": "Basic product details, manufacturing information, and batch number."
+          },
+          {
+            "question": "Why is CPSC testing required?",
+            "answer": "Ensures safety and compliance with US regulations for children’s products."
+          }
+        ],
+        "referenceLinks": [
+          {
+            "title": "CPSC Testing Information",
+            "url": "https://www.cpsc.gov/Business--Manufacturing/Business-Education/childrens-products",
+            "description": "Guidelines for testing children’s products."
+          },
+          {
+            "title": "FTC Labeling Requirements",
+            "url": "https://www.ftc.gov/tips-advice/business-center/guidance/threading-your-way-through-labeling-requirements-under-textile",
+            "description": "FTC requirements for textile labeling."
+          }
+        ],
+        "incentives": [
+          "Special Export Benefits under RoDTEP scheme",
+          "Export Credit Guarantee support",
+          "Technology Upgradation Fund Scheme (TUFS)",
+          "Brand promotion and marketing assistance"
+        ]
+      },
+      "Children or Baby Boys' or Girls' Clothes": {
+        "requirements": {
+          "mandatory": [
+            {
+              "requirement": "Product Labeling",
+              "description": "FTC and ASTM compliance required.",
+              "details": "Include details like fiber content, country of origin, and manufacturer information."
+            },
+            {
+              "requirement": "CPSC Certification",
+              "description": "Mandatory testing for children’s sleepwear.",
+              "details": "CPC certificate required for importer."
+            },
+            {
+              "requirement": "Tracking Label",
+              "description": "Include tracking information.",
+              "details": "Identity details, batch, and manufacturing process."
+            }
+          ],
+          "recommended": [
+            {
+              "requirement": "Ethical Sourcing",
+              "description": "Use ethically sourced materials.",
+              "details": "Enhances brand appeal and meets consumer expectations."
+            }
+          ]
+        },
+        "faqs": [
+          {
+            "question": "What is the purpose of a tracking label?",
+            "answer": "To identify the product and ensure accountability for safety compliance."
+          },
+          {
+            "question": "How often is CPSC certification required?",
+            "answer": "Once per batch, ensuring each lot complies with safety standards."
+          }
+        ],
+        "referenceLinks": [
+          {
+            "title": "CPSC Testing for Children’s Products",
+            "url": "https://www.cpsc.gov/Business--Manufacturing/Business-Education/childrens-products",
+            "description": "Details on CPSC testing requirements."
+          },
+          {
+            "title": "ASTM Standards for Textiles",
+            "url": "https://www.astm.org/Standards/D5489.htm",
+            "description": "Specifications for children’s apparel."
+          }
+        ],
+        "incentives": [
+          "Production Linked Incentive (PLI) scheme benefits",
+          "Export credit insurance support",
+          "Trade infrastructure support under TIE scheme",
+          "R&D support for technical textiles"
+        ]
+      }    
+    },
+    "Europe": {
+      "Adult Apparel & Accessories": {
+        "requirements": {
+          "mandatory": [
+            {
+              "requirement": "CE Marking",
+              "description": "Mandatory conformity marking for EEA",
+              "details": "Products must display CE marking indicating conformity with EU health, safety, and environmental protection standards"
+            },
+            {
+              "requirement": "REACH Compliance",
+              "description": "EU chemical regulation compliance",
+              "details": "Registration, Evaluation, Authorization and Restriction of Chemicals (REACH) requirements for textiles"
+            },
+            {
+              "requirement": "Textile Labeling Regulation",
+              "description": "EU Regulation No 1007/2011",
+              "details": "Mandatory fiber composition labeling and language requirements"
+            }
+          ],
+          "recommended": [
+            {
+              "requirement": "EU Ecolabel",
+              "description": "Environmental excellence certification",
+              "details": "Voluntary certification for environmental standards and sustainable production"
+            },
+            {
+              "requirement": "OEKO-TEX Certification",
+              "description": "Textile testing certification",
+              "details": "Independent testing for harmful substances in textiles"
+            }
+          ]
+        },
+        "incentives": [
+          "DGFT Market Access Initiative (MAI) scheme for EU market",
+          "Export Promotion Council support for EU trade fairs",
+          "Interest equalization scheme for EU exports",
+          "Market study and research funding"
+        ],
+        "faqs": [
+          {
+            "question": "What is CE marking and when is it required?",
+            "answer": "CE marking is mandatory for products sold in the EEA, indicating compliance with EU safety, health, and environmental requirements."
+          },
+          {
+            "question": "How to ensure REACH compliance?",
+            "answer": "Maintain documentation of chemical substances, get testing reports from accredited labs, and register substances if required."
+          }
+        ],
+        "referenceLinks": [
+          {
+            "title": "EU Textile Regulation",
+            "url": "https://ec.europa.eu/growth/sectors/fashion/textiles-and-clothing-industries/legislation_en",
+            "description": "Official EU textile regulations and requirements"
+          },
+          {
+            "title": "REACH Guidelines",
+            "url": "https://echa.europa.eu/regulations/reach/understanding-reach",
+            "description": "Complete guide to REACH compliance"
+          }
+        ]
+      },
+      "Children's Apparel & Accessories": {
+        "requirements": {
+          "mandatory": [
+            {
+              "requirement": "EN 14682 Safety Standard",
+              "description": "Safety of children's clothing",
+              "details": "Specific requirements for cords and drawstrings on children's clothing"
+            },
+            {
+              "requirement": "CLP Regulation",
+              "description": "Chemical classification and labeling",
+              "details": "Requirements for classification, labeling, and packaging of substances"
+            },
+            {
+              "requirement": "General Product Safety Directive",
+              "description": "GPSD compliance",
+              "details": "General safety requirements for all consumer products"
+            }
+          ],
+          "recommended": [
+            {
+              "requirement": "EN 71-3 Testing",
+              "description": "Chemical safety testing",
+              "details": "Testing for migration of certain elements in textile materials"
+            }
+          ]
+        },
+        "incentives": [
+          "Special assistance for compliance testing",
+          "Export marketing assistance for EU market",
+          "Support for participation in EU children's wear exhibitions",
+          "R&D funding for child-safe materials"
+        ],
+        "faqs": [
+          {
+            "question": "What are the key safety requirements for children's clothing in EU?",
+            "answer": "Key requirements include EN 14682 for cords and drawstrings, chemical safety compliance, and general product safety requirements."
+          },
+          {
+            "question": "How often should safety testing be conducted?",
+            "answer": "Testing should be conducted for each new production batch and when there are material or design changes."
+          }
+        ],
+        "referenceLinks": [
+          {
+            "title": "EU Children's Clothing Safety",
+            "url": "https://ec.europa.eu/safety-gate/#/screen/pages/Safety",
+            "description": "EU safety requirements for children's products"
+          },
+          {
+            "title": "EN Standards for Children's Wear",
+            "url": "https://standards.cen.eu",
+            "description": "European standards for children's clothing"
+          }
+        ]
+      }
+    }
+  }
+    

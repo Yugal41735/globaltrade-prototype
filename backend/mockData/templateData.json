@@ -1,0 +1,80 @@
+{
+    "Eco-packaging": {
+      "documents": [
+        {
+          "id": "doc1",
+          "name": "Product Specification Sheet",
+          "description": "Technical specifications and material composition details",
+          "required": true
+        },
+        {
+          "id": "doc2",
+          "name": "Environmental Impact Assessment",
+          "description": "Product lifecycle and environmental impact analysis",
+          "required": true
+        },
+        {
+          "id": "doc3",
+          "name": "Quality Control Certificate",
+          "description": "Manufacturing quality assurance documentation",
+          "required": true
+        },
+        {
+          "id": "doc4",
+          "name": "Biodegradability Certificate",
+          "description": "Third-party certification of biodegradable properties",
+          "required": true
+        }
+      ],
+      "certifications": [
+        {
+          "id": "cert1",
+          "name": "ISO 14001",
+          "description": "Environmental Management System",
+          "validity": "2 years"
+        },
+        {
+          "id": "cert2",
+          "name": "Compostable Certification",
+          "description": "Product compostability verification",
+          "validity": "1 year"
+        }
+      ]
+    },
+    "Biodegradable containers": {
+      "documents": [
+        {
+          "id": "doc1",
+          "name": "Material Safety Data Sheet",
+          "description": "Safety and chemical composition details",
+          "required": true
+        },
+        {
+          "id": "doc2",
+          "name": "Food Contact Safety Certificate",
+          "description": "Food-grade safety certification",
+          "required": true
+        },
+        {
+          "id": "doc3",
+          "name": "Manufacturing Process Documentation",
+          "description": "Production method and quality control details",
+          "required": false
+        }
+      ],
+      "certifications": [
+        {
+          "id": "cert1",
+          "name": "FDA Approval",
+          "description": "Food contact approval certification",
+          "validity": "3 years"
+        },
+        {
+          "id": "cert2",
+          "name": "Biodegradability Standard",
+          "description": "ASTM D6400 certification",
+          "validity": "2 years"
+        }
+      ]
+    }
+}

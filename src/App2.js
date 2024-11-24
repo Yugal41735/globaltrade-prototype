@@ -454,7 +454,7 @@ useEffect(() => {
                 />
               </Typography>
               <Grid container spacing={3}>
-                {/* {complianceData.requirements.map((req, index) => (
+                {complianceData.requirements.map((req, index) => (
                   <Grid item xs={12} key={index}>
                     <Card>
                       <CardContent>
@@ -462,107 +462,7 @@ useEffect(() => {
                       </CardContent>
                     </Card>
                   </Grid>
-                ))} */}
-                <Grid item xs={12}>
-                  <Typography variant="subtitle1" gutterBottom>
-                    Mandatory Requirements
-                  </Typography>
-                  {complianceData.requirements.mandatory.map((req, index) => (
-                    <Grid item xs={12} key={index}>
-                      <Card sx={{ mb: 2 }}>
-                        <CardContent>
-                          <Typography variant="subtitle2" gutterBottom>
-                            {req.requirement}
-                          </Typography>
-                          <Typography color="textSecondary" gutterBottom>
-                            {req.description}
-                          </Typography>
-                          <Typography variant="body2">
-                            {req.details}
-                          </Typography>
-                        </CardContent>
-                      </Card>
-                    </Grid>
-                  ))}
-                </Grid>
-
-                {/* Recommended Requirements */}
-                <Grid item xs={12}>
-                  <Typography variant="subtitle1" gutterBottom>
-                    Recommended Requirements
-                  </Typography>
-                  {complianceData.requirements.recommended.map((req, index) => (
-                    <Grid item xs={12} key={index}>
-                      <Card sx={{ mb: 2 }}>
-                        <CardContent>
-                          <Typography variant="subtitle2" gutterBottom>
-                            {req.requirement}
-                          </Typography>
-                          <Typography color="textSecondary" gutterBottom>
-                            {req.description}
-                          </Typography>
-                          <Typography variant="body2">
-                            {req.details}
-                          </Typography>
-                        </CardContent>
-                      </Card>
-                    </Grid>
-                  ))}
-                </Grid>
-
-                {/* FAQs Section */}
-                {complianceData.faqs && complianceData.faqs.length > 0 && (
-                  <Grid item xs={12}>
-                    <Typography variant="h6" gutterBottom sx={{ mt: 4 }}>
-                      Frequently Asked Questions
-                    </Typography>
-                    {complianceData.faqs.map((faq, index) => (
-                      <Card key={index} sx={{ mb: 2 }}>
-                        <CardContent>
-                          <Typography variant="subtitle1" color="primary" gutterBottom>
-                            Q: {faq.question}
-                          </Typography>
-                          <Typography variant="body1">
-                            A: {faq.answer}
-                          </Typography>
-                        </CardContent>
-                      </Card>
-                    ))}
-                  </Grid>
-                )}
-
-                {/* Reference Links Section */}
-                {complianceData.referenceLinks && complianceData.referenceLinks.length > 0 && (
-                  <Grid item xs={12}>
-                    <Typography variant="h6" gutterBottom sx={{ mt: 4 }}>
-                      Useful Resources
-                    </Typography>
-                    <Grid container spacing={2}>
-                      {complianceData.referenceLinks.map((link, index) => (
-                        <Grid item xs={12} md={6} key={index}>
-                          <Card>
-                            <CardContent>
-                              <Typography variant="subtitle1" gutterBottom>
-                                <Link 
-                                  href={link.url} 
-                                  target="_blank" 
-                                  rel="noopener noreferrer"
-                                  color="primary"
-                                >
-                                  {link.title}
-                                </Link>
-                              </Typography>
-                              <Typography variant="body2" color="textSecondary">
-                                {link.description}
-                              </Typography>
-                            </CardContent>
-                          </Card>
-                        </Grid>
-                      ))}
-                    </Grid>
-                  </Grid>
-                )}
-
+                ))}
               </Grid>
             </Box>
           )}

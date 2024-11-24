@@ -19,8 +19,7 @@ import {
   CircularProgress,
   Tooltip,
   IconButton,
-  Chip,
-  LinearProgress
+  Chip
 } from "@mui/material";
 import {
   ResponsiveContainer,
@@ -46,7 +45,6 @@ import {
   fetchIncentives,
   fetchMarketData
 } from "./services/api";
-import { fetchCountries, fetchProducts } from "./services/api";
 import { cacheManager, CACHE_KEYS } from "./services/cacheManager";
 import SavedAnalysis from './components/SavedAnalysis';
 import ComparisonView from './components/ComparisonView';
@@ -83,10 +81,6 @@ const GlobalTradeAssistant = () => {
     return savedMode ? JSON.parse(savedMode) : false;
   });
   const [isOfflineData, setIsOfflineData] = useState(false);
-  // Add new state variables after existing ones
-  const [countries, setCountries] = useState([]);
-  const [products, setProducts] = useState([]);
-
 
   useEffect(() => {
     const hasSeenTutorial = localStorage.getItem('hasSeenTutorial');
@@ -94,35 +88,6 @@ const GlobalTradeAssistant = () => {
       setTutorialOpen(true);
     }
   }, []);
-
-  // Add useEffect hooks after existing ones
-useEffect(() => {
-  const loadCountries = async () => {
-    try {
-      const countriesData = await fetchCountries();
-      setCountries(countriesData);
-    } catch (error) {
-      setError("Failed to load countries");
-    }
-  };
-  loadCountries();
-}, []);
-
-useEffect(() => {
-  const loadProducts = async () => {
-    if (country) {
-      try {
-        const productsData = await fetchProducts(country);
-        setProducts(productsData);
-      } catch (error) {
-        setError("Failed to load products");
-      }
-    }
-  };
-  if (country) {
-    loadProducts();
-  }
-}, [country]);
 
   // Constants
   const steps = [
@@ -298,30 +263,6 @@ useEffect(() => {
             </Card>
           </Grid>
         )}
-        {marketData.marketShare && (
-          <Grid item xs={12} md={6}>
-            <Card>
-              <CardContent>
-                <Typography variant="h6" gutterBottom>Market Share Distribution</Typography>
-                <Box sx={{ mt: 2 }}>
-                  {Object.entries(marketData.marketShare).map(([key, value]) => (
-                    <Box key={key} sx={{ mb: 2 }}>
-                      <Box sx={{ display: 'flex', justifyContent: 'space-between', mb: 1 }}>
-                        <Typography>{key.charAt(0).toUpperCase() + key.slice(1)}</Typography>
-                        <Typography>{value}%</Typography>
-                      </Box>
-                      <LinearProgress 
-                        variant="determinate" 
-                        value={value} 
-                        sx={{ height: 8, borderRadius: 5 }}
-                      />
-                    </Box>
-                  ))}
-                </Box>
-              </CardContent>
-            </Card>
-          </Grid>
-        )}
       </Grid>
     );
   };
@@ -395,13 +336,8 @@ useEffect(() => {
                   fullWidth
                 >
                   <MenuItem value="">Select Country</MenuItem>
-                  {/* <MenuItem value="United States">United States</MenuItem> */}
-                  {/* <MenuItem value="Europe">Europe</MenuItem> */}
-                  {countries.map((country) => (
-                    <MenuItem key={country} value={country}>
-                      {country}
-                    </MenuItem>
-                  ))}
+                  <MenuItem value="United States">United States</MenuItem>
+                  <MenuItem value="Europe">Europe</MenuItem>
                 </Select>
               </Grid>
               <Grid item xs={12} md={6}>
@@ -416,18 +352,12 @@ useEffect(() => {
                   value={product}
                   onChange={(e) => setProduct(e.target.value)}
                   fullWidth
-                  disabled={!country}
                 >
                   <MenuItem value="">Select Product</MenuItem>
-                  {/* <MenuItem value="Eco-packaging">Eco-packaging</MenuItem> */}
-                  {/* <MenuItem value="Biodegradable containers">
+                  <MenuItem value="Eco-packaging">Eco-packaging</MenuItem>
+                  <MenuItem value="Biodegradable containers">
                     Biodegradable containers
-                  </MenuItem> */}
-                  {products.map((product) => (
-                    <MenuItem key={product} value={product}>
-                      {product}
-                    </MenuItem>
-                  ))}
+                  </MenuItem>
                 </Select>
               </Grid>
               <Grid item xs={12}>
@@ -454,7 +384,7 @@ useEffect(() => {
                 />
               </Typography>
               <Grid container spacing={3}>
-                {/* {complianceData.requirements.map((req, index) => (
+                {complianceData.requirements.map((req, index) => (
                   <Grid item xs={12} key={index}>
                     <Card>
                       <CardContent>
@@ -462,107 +392,7 @@ useEffect(() => {
                       </CardContent>
                     </Card>
                   </Grid>
-                ))} */}
-                <Grid item xs={12}>
-                  <Typography variant="subtitle1" gutterBottom>
-                    Mandatory Requirements
-                  </Typography>
-                  {complianceData.requirements.mandatory.map((req, index) => (
-                    <Grid item xs={12} key={index}>
-                      <Card sx={{ mb: 2 }}>
-                        <CardContent>
-                          <Typography variant="subtitle2" gutterBottom>
-                            {req.requirement}
-                          </Typography>
-                          <Typography color="textSecondary" gutterBottom>
-                            {req.description}
-                          </Typography>
-                          <Typography variant="body2">
-                            {req.details}
-                          </Typography>
-                        </CardContent>
-                      </Card>
-                    </Grid>
-                  ))}
-                </Grid>
-
-                {/* Recommended Requirements */}
-                <Grid item xs={12}>
-                  <Typography variant="subtitle1" gutterBottom>
-                    Recommended Requirements
-                  </Typography>
-                  {complianceData.requirements.recommended.map((req, index) => (
-                    <Grid item xs={12} key={index}>
-                      <Card sx={{ mb: 2 }}>
-                        <CardContent>
-                          <Typography variant="subtitle2" gutterBottom>
-                            {req.requirement}
-                          </Typography>
-                          <Typography color="textSecondary" gutterBottom>
-                            {req.description}
-                          </Typography>
-                          <Typography variant="body2">
-                            {req.details}
-                          </Typography>
-                        </CardContent>
-                      </Card>
-                    </Grid>
-                  ))}
-                </Grid>
-
-                {/* FAQs Section */}
-                {complianceData.faqs && complianceData.faqs.length > 0 && (
-                  <Grid item xs={12}>
-                    <Typography variant="h6" gutterBottom sx={{ mt: 4 }}>
-                      Frequently Asked Questions
-                    </Typography>
-                    {complianceData.faqs.map((faq, index) => (
-                      <Card key={index} sx={{ mb: 2 }}>
-                        <CardContent>
-                          <Typography variant="subtitle1" color="primary" gutterBottom>
-                            Q: {faq.question}
-                          </Typography>
-                          <Typography variant="body1">
-                            A: {faq.answer}
-                          </Typography>
-                        </CardContent>
-                      </Card>
-                    ))}
-                  </Grid>
-                )}
-
-                {/* Reference Links Section */}
-                {complianceData.referenceLinks && complianceData.referenceLinks.length > 0 && (
-                  <Grid item xs={12}>
-                    <Typography variant="h6" gutterBottom sx={{ mt: 4 }}>
-                      Useful Resources
-                    </Typography>
-                    <Grid container spacing={2}>
-                      {complianceData.referenceLinks.map((link, index) => (
-                        <Grid item xs={12} md={6} key={index}>
-                          <Card>
-                            <CardContent>
-                              <Typography variant="subtitle1" gutterBottom>
-                                <Link 
-                                  href={link.url} 
-                                  target="_blank" 
-                                  rel="noopener noreferrer"
-                                  color="primary"
-                                >
-                                  {link.title}
-                                </Link>
-                              </Typography>
-                              <Typography variant="body2" color="textSecondary">
-                                {link.description}
-                              </Typography>
-                            </CardContent>
-                          </Card>
-                        </Grid>
-                      ))}
-                    </Grid>
-                  </Grid>
-                )}
-
+                ))}
               </Grid>
             </Box>
           )}

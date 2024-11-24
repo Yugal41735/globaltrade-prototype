@@ -1,0 +1,93 @@
+{
+    "United States": {
+      "Eco-packaging": {
+        "size": [
+          { "year": "2021", "value": 5.2 },
+          { "year": "2022", "value": 6.8 },
+          { "year": "2023", "value": 8.4 },
+          { "year": "2024", "value": 10.1 }
+        ],
+        "growth": [
+          { "year": "2021", "value": 15 },
+          { "year": "2022", "value": 30.7 },
+          { "year": "2023", "value": 23.5 },
+          { "year": "2024", "value": 20.2 }
+        ],
+        "competitors": [
+          "EcoPackage Corp",
+          "GreenWrap Solutions",
+          "Sustainable Pack Inc"
+        ],
+        "marketShare": {
+          "leader": 35,
+          "medium": 45,
+          "small": 20
+        },
+        "risks": [
+          "Supply chain disruptions",
+          "Raw material price volatility",
+          "New regulatory requirements"
+        ]
+      },
+      "Biodegradable containers": {
+        "size": [
+          { "year": "2021", "value": 3.1 },
+          { "year": "2022", "value": 4.2 },
+          { "year": "2023", "value": 5.6 },
+          { "year": "2024", "value": 7.1 }
+        ],
+        "growth": [
+          { "year": "2021", "value": 20 },
+          { "year": "2022", "value": 35.5 },
+          { "year": "2023", "value": 33.3 },
+          { "year": "2024", "value": 26.8 }
+        ],
+        "competitors": [
+          "BioContainer Co",
+          "EcoStorage Systems",
+          "NaturePack Ltd"
+        ],
+        "marketShare": {
+          "leader": 40,
+          "medium": 35,
+          "small": 25
+        },
+        "risks": [
+          "Technology adoption barriers",
+          "Cost competitiveness",
+          "Market education needs"
+        ]
+      }
+    },
+    "Europe": {
+      "Eco-packaging": {
+        "size": [
+          { "year": "2021", "value": 6.5 },
+          { "year": "2022", "value": 8.2 },
+          { "year": "2023", "value": 10.4 },
+          { "year": "2024", "value": 12.8 }
+        ],
+        "growth": [
+          { "year": "2021", "value": 18 },
+          { "year": "2022", "value": 26.2 },
+          { "year": "2023", "value": 26.8 },
+          { "year": "2024", "value": 23.1 }
+        ],
+        "competitors": [
+          "EuroPack Green",
+          "Sustainable Solutions EU",
+          "EcoWrap Europe"
+        ],
+        "marketShare": {
+          "leader": 30,
+          "medium": 50,
+          "small": 20
+        },
+        "risks": [
+          "Varying country regulations",
+          "Local competition",
+          "Currency fluctuations"
+        ]
+      }
+    }
+}

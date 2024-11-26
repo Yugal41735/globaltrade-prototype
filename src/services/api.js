@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { cacheManager, CACHE_KEYS } from './cacheManager';
 
-const API_BASE_URL = 'http://localhost:5000';
+const API_BASE_URL = 'https://globaltrade-prototype.vercel.app/';
 
 const handleApiError = (error) => {
   const message = error.response?.data?.message || 'An unexpected error occurred';

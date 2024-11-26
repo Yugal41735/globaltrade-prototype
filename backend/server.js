@@ -22,6 +22,9 @@ const errorHandler = (err, req, res, next) => {
   res.status(500).json({ error: err.message || "Internal server error" });
 };
 
+// For testing whether it is working perfectly fine
+app.get("/", (req, res) => res.send("Express on Vercel"));
+
 // Get available countries
 app.get('/countries', (req, res) => {
     const countries = Object.keys(marketData);
@@ -130,3 +133,5 @@ const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}`);
 });
+
+module.exports = app;

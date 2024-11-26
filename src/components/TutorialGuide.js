@@ -14,12 +14,13 @@ import {
   Paper
 } from '@mui/material';
 import { Close, NavigateNext, NavigateBefore } from '@mui/icons-material';
+import welcomeImage from './welcome.png'
 
 const tutorialSteps = [
   {
     title: "Welcome to GlobalTrade AI Assistant",
     content: "This tutorial will guide you through the key features of our platform to help you analyze international markets effectively.",
-    image: "../../placeholders/welcome.png"
+    image: welcomeImage
   },
   {
     title: "Select Your Target Market",
@@ -115,17 +116,19 @@ const TutorialGuide = ({ open, onClose, onComplete }) => {
               color: 'primary.contrastText'
             }}
           >
-            <Box 
+            {/* <Box 
               component="img"
-              src="/api/placeholder/400/300"
+              src={tutorialSteps[activeStep].image}
               alt="Tutorial step"
               sx={{ 
-                width: '100%',
+                width: '10%',
                 maxWidth: 400,
                 height: 'auto',
-                mb: 3
+                mb: 3,
+                borderRadius: 2,
+                borderShadow: 1
               }}
-            />
+            /> */}
             <Typography variant="body1" sx={{ textAlign: 'center' }}>
               {tutorialSteps[activeStep].content}
             </Typography>

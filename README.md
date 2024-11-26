@@ -1,70 +1,110 @@
-# Getting Started with Create React App
+# GlobalTrade AI Assistant
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![GlobalTrade AI Assistant](Logo.png)
 
-## Available Scripts
+## 🌐 Live Demo
+*Experience the application:* [GlobalTrade AI Assistant](https://globaltradeai.netlify.app/)
 
-In the project directory, you can run:
+## 📝 Description
+GlobalTrade AI Assistant is a comprehensive platform that empowers Indian SMBs to confidently enter international markets. Our solution provides real-time compliance requirements, market analysis, and incentive information in an intuitive interface.
 
-### `npm start`
+## 🎯 Key Features
+- Real-time market size and growth analysis
+- Comprehensive compliance requirements
+- Available grants and incentives
+- Interactive data visualizations
+- Offline capability
+- Dark/Light mode
+- History and comparison tools
+- Export functionality
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🛠 Built Using
+- React.js
+- Material-UI
+- Node.js & Express
+- Google Gemini AI
+- Recharts
+- Local Storage API
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## ⚡ Quick Start
 
-### `npm test`
+### Prerequisites
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Node.js (v16.0.0 or higher)
+npm/yarn
+Git
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Installation Steps
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. *Clone the repository*
+bash
+git clone [[your-repository-link](https://github.com/Yugal41735/globaltrade-prototype.git)]
+cd globaltrade-ai
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+2. *Frontend Setup*
+bash
+# Install dependencies
+npm install
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# Start the application
+npm start
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Access the application at http://localhost:3000
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. *Backend Setup*
+bash
+# Navigate to backend directory
+cd backend
 
-## Learn More
+# Install dependencies
+npm install
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Start the server
+npm start
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Server will run on http://localhost:5000
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 📊 Application Structure
 
-### Analyzing the Bundle Size
+/src
+  /components      # React components
+  /services       # API services
+  /utils          # Utility functions
+/backend
+  /mockData       # JSON data files
+  server.js       # Express server
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+## 🔧 Environment Setup
+Create a .env file in the backend directory:
+env
+PORT=5000
+GEMINI_API_KEY=your_api_key_here
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+## 💻 Usage Guide
+1. Select target market and product category
+2. View market analysis with interactive charts
+3. Access compliance requirements and incentives
+4. Compare different markets
+5. Export analysis reports
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<!-- ## 🤝 Contributing
+Contributions are welcome! Please feel free to submit issues and pull requests. -->
 
-### Deployment
+## 📝 License
+This project is licensed under the MIT License.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 👥 Team
+- Yugal Agarwal
 
-### `npm run build` fails to minify
+<!-- ## 🆘 Support
+Need help? Please check our [issues page](link_to_issues). -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+This project was developed as part of the Amazon Smbhav Hackathon 2024.

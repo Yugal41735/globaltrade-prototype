@@ -19,7 +19,7 @@ const tutorialSteps = [
   {
     title: "Welcome to GlobalTrade AI Assistant",
     content: "This tutorial will guide you through the key features of our platform to help you analyze international markets effectively.",
-    image: "/placeholder/welcome.png"
+    image: "/placeholders/welcome.png"
   },
   {
     title: "Select Your Target Market",
